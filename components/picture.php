@@ -1,0 +1,1 @@
+<img class="w-100" src="img/healthone-banner.png" alt="healthone-banner">

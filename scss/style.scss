@@ -1,0 +1,51 @@
+@use './abstract';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: abstract.$primary-font;
+}
+
+html,
+body {
+  background-color: rgb(220, 220, 220);
+  color: abstract.$dark-color;
+}
+
+.container {
+  background-color: abstract.$light-color;
+}
+
+// Header
+
+.header h1 {
+  font-size: 3rem;
+}
+
+// Navbar
+
+.navbar {
+  background-color: rgb(240, 240, 240);
+}
+
+.nav-link {
+  margin: 0 .5rem;
+  padding: .5rem;
+  color: rgb(0, 0, 0);
+
+  &:hover {
+    color: red;
+  }
+}
+
+.badge {
+  width: max-content;
+  background-color: green;
+}
+
+// Footer
+
+hr {
+  margin-bottom: 0;
+}
